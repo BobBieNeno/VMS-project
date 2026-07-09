@@ -1,0 +1,125 @@
+.modal-backdrop {
+    position: fixed;
+    inset: 0;
+    background: rgba(17, 24, 39, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+.vehicle-modal {
+    width: 460px;
+    background: white;
+    border-radius: 14px;
+    box-shadow: 0 20px 60px rgba(15, 23, 42, 0.25);
+    overflow: hidden;
+}
+
+.modal-header {
+    padding: 20px 24px;
+    border-bottom: 1px solid #e5e7eb;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.modal-header h2 {
+    margin: 0;
+    font-size: 20px;
+}
+
+.modal-close-btn {
+    width: 34px;
+    height: 34px;
+    border: none;
+    border-radius: 8px;
+    background: #f3f4f6;
+    color: #374151;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.vehicle-modal form {
+    padding: 20px 24px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.vehicle-modal input,
+.vehicle-modal textarea {
+    padding: 10px 12px;
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+}
+
+.vehicle-modal textarea {
+    min-height: 84px;
+    resize: vertical;
+}
+
+.modal-actions {
+    margin-top: 16px;
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+.modal-actions button {
+    height: 42px;
+    padding: 0 18px;
+    border-radius: 8px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.modal-actions button[type="button"] {
+    background: #ffffff;
+    color: #374151;
+    border: 1px solid #d1d5db;
+}
+
+.modal-actions button[type="submit"] {
+    background: #2563eb;
+    color: #ffffff;
+    border: none;
+}
+
+.modal-error {
+    margin: 4px 0 0;
+    padding: 10px 12px;
+    border-radius: 8px;
+    background: #fee2e2;
+    color: #b91c1c;
+    font-size: 14px;
+}
+
+.vehicle-modal select {
+    width: 100%;
+    height: 44px;
+
+    padding: 0 14px;
+
+    border: 1px solid #d1d5db;
+    border-radius: 8px;
+
+    font-size: 14px;
+
+    outline: none;
+
+    transition: 0.2s;
+}
+
+.vehicle-modal select:focus {
+    border-color: #2563eb;
+    box-shadow: 0 0 0 3px rgba(37, 99, 235, 0.15);
+}
+
+.vehicle-modal button:disabled,
+.vehicle-modal input:disabled,
+.vehicle-modal textarea:disabled,
+.vehicle-modal select:disabled {
+    opacity: 0.65;
+    cursor: not-allowed;
+}

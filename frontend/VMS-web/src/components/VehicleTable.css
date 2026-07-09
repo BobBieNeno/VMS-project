@@ -1,0 +1,50 @@
+.table-card {
+    background: white;
+    border-radius: 16px;
+    margin-top: 20px;
+    overflow: hidden;
+    border: 1px solid #e5e7eb;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+thead {
+    background: #f9fafb;
+}
+
+th {
+    text-align: left;
+    padding: 16px;
+    color: #6b7280;
+    font-size: 13px;
+}
+
+td {
+    padding: 16px;
+    border-top: 1px solid #f1f5f9;
+}
+
+tbody tr:hover {
+    background: #fafafa;
+}
+
+.plate {
+    background: #eef4ff;
+    color: #2563eb;
+    padding: 4px 8px;
+    border-radius: 6px;
+    font-weight: bold;
+}
+
+.table-message {
+    padding: 28px 16px;
+    text-align: center;
+    color: #6b7280;
+}
+
+.table-error {
+    color: #b91c1c;
+}

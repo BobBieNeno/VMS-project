@@ -1,0 +1,22 @@
+.badge {
+  display: inline-block;
+  padding: 4px 12px;
+  border-radius: 20px;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.success {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.warning {
+  background: #ffedd5;
+  color: #ea580c;
+}
+
+.danger {
+  background: #fee2e2;
+  color: #dc2626;
+}

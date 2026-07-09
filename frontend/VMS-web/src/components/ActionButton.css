@@ -1,0 +1,32 @@
+.actions {
+    display: flex;
+    gap: 8px;
+}
+
+.icon-btn {
+    width: auto;
+    height: 34px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #eef4ff;
+    color: #2563eb;
+}
+
+.icon-btn:hover {
+    background: #dbeafe;
+}
+
+.icon-btn.danger {
+    background: #fee2e2;
+    color: #dc2626;
+}
+
+.icon-btn.danger:hover {
+    background: #fecaca;
+}
+
+.icon-btn:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
